@@ -1,13 +1,15 @@
-# BeatMaker
-Beat Maker
+# Untitled Loop Game
 
-https://fatboy.site/ thank u 4 sounds
+Untitled Loop Game is a simple beat mixer that allows users to record/save short loops either using their keyboard or a midi controller.
 
-https://github.com/gleitz/midi-js-soundfonts thank u 4 rendering said sounds
+## How to Setup
 
-https://github.com/mudcube/MIDI.js thank u 4 playing said sounds
+Project does not come with sounds / midi.js. In order to setup the project you will have to install them into the loadMIDIPlayer.js file. The index.html will have to be run on a https server (we used live server with a **very** long delay on refresh), and the backend will have to be run on a ruby on rails server.
 
-## MVP
+all geese go to geese distributors
+
+### MVP
+
 [x] get midi.js working -> use live server pls
 
 [x] 16 instruments
@@ -24,27 +26,32 @@ https://github.com/mudcube/MIDI.js thank u 4 playing said sounds
 
 [x] Recordings undo
 
-
-## Stretch
+### Stretch
 
 [x] tempo - time/control (all things counting)
 
-[x] key/sample duration -> look into sound engineering the VEL/VOL/DEL for each instrument 
+[x] key/sample duration -> look into sound engineering the VEL/VOL/DEL for each instrument
 
-[ ] CSS / material design for UX/UI?
+[x] CSS / material design for UX/UI?
 
 [x] Update Control Panel to do more things (metronome / record)
 
 [x] metronome
 
-[ ] instrument volume slider
+[x] instrument volume slider
 
-[ ] scoring but the epic kind.
+[ ] Offline support
 
-## TOMORROW
+### Super Stretch
 
-[ ] Intro to Material Design & CSS
+[x] MIDI SUPPORT!?!?
 
-[ ] Keyboard Shifting
+### Credit due to credit due
 
-[ ] How to use
+https://fatboy.site/ thank u 4 sounds
+
+https://github.com/gleitz/midi-js-soundfonts thank u 4 rendering said sounds
+
+https://github.com/mudcube/MIDI.js thank u 4 playing said sounds
+
+https://goose.game/ thank u 4 big inspiration <3
