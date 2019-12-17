@@ -4,6 +4,10 @@ Untitled Loop Game is a simple beat mixer that allows users to record/save short
 
 Demo can be found [here](https://drive.google.com/open?id=1WAky_OSQxhWBg738-6XQ50Dxgq19pPsY)!
 
+![splash](https://i.imgur.com/5pIpReL.png)
+
+![inscreen](https://i.imgur.com/aJiafve.png)
+
 ## How to Setup
 
 Project does not come with sounds / midi.js. In order to setup the project you will have to install them into the loadMIDIPlayer.js file. The index.html will have to be run on a https server (we used live server with a **very** long delay on refresh), and the backend will have to be run on a ruby on rails server.
